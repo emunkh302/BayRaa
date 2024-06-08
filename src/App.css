@@ -651,7 +651,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .videoContainer video {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover; /* Ensures video covers the container */
 }
 
 /* Desktop-specific styles */
@@ -664,6 +665,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .videoContainer video {
     width: auto;
     height: 100%;
+    object-fit: cover;
   }
 }
 
